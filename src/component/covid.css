@@ -1,0 +1,112 @@
+
+.card1, .card2 , .card3, .card4, .card5, .card6{
+    width:370px;
+    height: 200px;
+    background-color: aquamarine;
+    box-shadow: 20px 20px 50px rgb(94, 94, 94);
+    margin-top: 50px;
+    text-align: center; 
+    
+  
+}
+.heading_part{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card1{
+    background-color: rgb(69, 69, 202);
+}
+.card1:hover{
+    width: 397px;
+    height:220px;
+}
+.card2:hover{
+    width: 397px;
+    height:220px;
+}
+
+.card3:hover{
+    width: 397px;
+    height:220px;
+}
+
+.card4:hover{
+    width: 397px;
+    height:220px;
+}
+
+.card5:hover{
+    width: 397px;
+    height:220px;
+}
+
+.card:hover{
+    width: 397px;
+    height:220px;
+}
+
+.card2{
+    background-color: rgba(79, 204, 79, 0.871);
+}
+
+.card3{
+    background-color:rgba(188, 188, 63, 0.91);
+    
+}
+
+
+.card4{
+    background-color:rgb(213, 167, 80);
+}
+
+
+.card5{
+    background-color:rgb(190, 103, 103);
+}
+
+.card6{
+    background-color:rgb(119, 165, 186);
+}
+
+
+.display_card{
+    /* background-color: rgb(28, 27, 27); */
+}
+
+.display_card{
+
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+    column-gap: 50px;
+    padding: 70px;
+    
+}
+.card_name span{
+    font-size: bold;
+    font-size: 15px;
+    color: white;
+    padding-top:20px;
+}
+
+.card_name {
+    font-size: 26px;
+    font-weight:600;
+    color: white;
+    padding-top: 10px;
+}
+
+.card_total{
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 7px  solid rgb(186, 174, 174);
+}
+
+#color6{
+
+    background-color: blue;
+}
